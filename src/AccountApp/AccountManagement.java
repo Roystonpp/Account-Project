@@ -35,6 +35,5 @@ public class AccountManagement {
 	public int getaccountNumber () {
 		return accountNumber;
 	}
-	
-	
+
 }
