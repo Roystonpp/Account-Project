@@ -10,9 +10,15 @@ public class App {
 		
 		Service s = new Service();
 		AccountManagement r = new AccountManagement("Royston", "Pinnock",10);
-		s.addAccount(r);
+		AccountManagement t = new AccountManagement("Chi", "Zhang",20);
+
+		s.addAccount(r); 
+		s.addAccount(t);
+
 		//r.getaccountNumber();
 		System.out.println(s.MaptoJson());
+		
+		s.Itername(""); 
 
 	}
 
